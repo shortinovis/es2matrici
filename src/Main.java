@@ -216,6 +216,13 @@ public class Main {
                 }
                 System.out.println();
             }
+
+            // nono es
+                if(UgualiSottoDiagonale(matr5))
+                    System.out.println("tutti i valori sotto la diagonale principale sono uguali");
+                else
+                    System.out.println("tutti i valori sotto la diagonale principale non sono uguali");
+
         }
     }
 
@@ -298,16 +305,15 @@ public class Main {
             }
         }
     }
-    private static void UgualiSottoDiagonale(int[][] matr) {
-
-        for (int i = 0; i < matr.length; i++) {
-            for (int p = 0; i<matr[i].length; p++){
-                if(i>=p)
-                    matr[i][p]=1;
-                else
-                    matr[i][p]=0;
+    private static boolean UgualiSottoDiagonale(int[][] matr) {
+    boolean uguali = true;
+        for (int i = 1; i < matr.length; i++) {
+            for (int p = 1; i<matr[i].length; p++){
+                if(i-1<p-1)
+                    if(matr[i][p]!=matr[i-1][p-1])
+                        uguali=false;
             }
         }
+        return uguali;
     }
-
     }
