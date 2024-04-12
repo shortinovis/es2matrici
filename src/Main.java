@@ -207,7 +207,15 @@ public class Main {
             }
 
             //ottavo es
+                Sostituzione2(matr5);
 
+            // stampa
+            for (int i = 0; i < matr5.length; i++) {
+                for (int p = 0; p < matr5[i].length; p++) {
+                    System.out.print(matr5[p][i] + " ");
+                }
+                System.out.println();
+            }
         }
     }
 
@@ -279,5 +287,27 @@ public class Main {
                 }
             }
         }
+    private static void Sostituzione2(int[][] matr) {
+
+        for (int i = 0; i < matr.length; i++) {
+            for (int p = 0; i<matr[i].length; p++){
+                if(i>=p)
+                    matr[i][p]=1;
+                else
+                    matr[i][p]=0;
+            }
+        }
+    }
+    private static void UgualiSottoDiagonale(int[][] matr) {
+
+        for (int i = 0; i < matr.length; i++) {
+            for (int p = 0; i<matr[i].length; p++){
+                if(i>=p)
+                    matr[i][p]=1;
+                else
+                    matr[i][p]=0;
+            }
+        }
+    }
 
     }
