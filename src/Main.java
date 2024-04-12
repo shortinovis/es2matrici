@@ -26,14 +26,14 @@ public class Main {
             matr = new int[righe][colonne];
             for (int i = 0; i < colonne; i++) {
                 for (int p = 0; p < righe; p++) {
-                    System.out.println("dammi valore da inseire");
-                    matr[i][p] = t.nextInt();
+                    System.out.println("dammi valore da inserire");
+                    matr[p][i] = t.nextInt();
                 }
             }
             // stampa
             for (int i = 0; i < matr.length; i++) {
                 for (int p = 0; p < matr[i].length; p++) {
-                    System.out.print(matr[p][i] + " ");
+                    System.out.print(matr[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -47,7 +47,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr.length; i++) {
                 for (int p = 0; p < matr[i].length; p++) {
-                    System.out.print(matr[p][i] + " ");
+                    System.out.print(matr[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -62,7 +62,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr.length; i++) {
                 for (int p = 0; p < matr[i].length; p++) {
-                    System.out.print(matr[p][i] + " ");
+                    System.out.print(matr[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -78,14 +78,14 @@ public class Main {
             for (int i = 0; i < colonne2; i++) {
                 for (int p = 0; p < righe2; p++) {
                     System.out.println("dammi valore da inseire");
-                    matr2[i][p] = t.nextInt();
+                    matr2[p][i] = t.nextInt();
                 }
             }
 
             // stampa
             for (int i = 0; i < matr2.length; i++) {
                 for (int p = 0; p < matr2[i].length; p++) {
-                    System.out.print(matr2[p][i] + " ");
+                    System.out.print(matr2[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -99,7 +99,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr2.length; i++) {
                 for (int p = 0; p < matr2[i].length; p++) {
-                    System.out.print(matr2[p][i] + " ");
+                    System.out.print(matr2[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -122,7 +122,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr3.length; i++) {
                 for (int p = 0; p < matr3[i].length; p++) {
-                    System.out.print(matr3[p][i] + " ");
+                    System.out.print(matr3[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -133,7 +133,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr3.length; i++) {
                 for (int p = 0; p < matr3[i].length; p++) {
-                    System.out.print(matr3[p][i] + " ");
+                    System.out.print(matr3[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -155,7 +155,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr4.length; i++) {
                 for (int p = 0; p < matr4[i].length; p++) {
-                    System.out.print(matr4[p][i] + " ");
+                    System.out.print(matr4[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -190,7 +190,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr5.length; i++) {
                 for (int p = 0; p < matr5[i].length; p++) {
-                    System.out.print(matr5[p][i] + " ");
+                    System.out.print(matr5[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -201,7 +201,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr5.length; i++) {
                 for (int p = 0; p < matr5[i].length; p++) {
-                    System.out.print(matr5[p][i] + " ");
+                    System.out.print(matr5[i][p] + " ");
                 }
                 System.out.println();
             }
@@ -212,7 +212,7 @@ public class Main {
             // stampa
             for (int i = 0; i < matr5.length; i++) {
                 for (int p = 0; p < matr5[i].length; p++) {
-                    System.out.print(matr5[p][i] + " ");
+                    System.out.print(matr5[i][p] + " ");
                 }
                 System.out.println();
             }
