@@ -306,14 +306,19 @@ public class Main {
         }
     }
     private static boolean UgualiSottoDiagonale(int[][] matr) {
-    boolean uguali = true;
-        for (int i = 1; i < matr.length; i++) {
-            for (int p = 1; i<matr[i].length; p++){
-                if(i-1<p-1)
-                    if(matr[i][p]!=matr[i-1][p-1])
-                        uguali=false;
+        boolean uguali = true;
+        for (int i = 0; i < matr[0].length; i++) {
+            for (int p = i; p < matr.length; p++) {
+                if (i != p){
+                    if (matr[p][i] != matr[1][0]) {
+                        uguali = false;
+                        break;
+                    }
             }
         }
+        if (!uguali)
+            break;
+    }
         return uguali;
     }
     }
